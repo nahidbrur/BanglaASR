@@ -67,13 +67,13 @@ python train.py \
 ## Inference
 There are different variants of FastConformer-CTC-BPE, Among them we only trained the **Large** one.
 
-| Model | d_model | n_layers | n_heads | Parameters | Bangla-only | Training Status |
-| ------------- | ------------- | --------    |--------    | ------------- | ------------- | --------    |
-Small   | 176  |16  | 4   | 14 M 	| X |  X
-Medium   | 256 	|16  | 4 	|32 M 	| X	|  X
-Large  | 512 |17  | 8 	|120 M 	| ✓ |  ✓ 
-XLarge | 1024 |24 | 8 	|616 M 	| X |  X
-XXLarge  | 1024 |42 | 8 	|1.2 B | X |  X
+| Model | d_model | n_layers | n_heads | Parameters | Training Status |
+| ------------- | ------------- | --------    |--------    | ------------- | --------    |
+Small   | 176  |16  | 4   | 14 M 	|  X
+Medium   | 256 	|16  | 4 	|32 M 	|  X
+Large  | 512 |17  | 8 	|120 M 	|  ✓ 
+XLarge | 1024 |24 | 8 	|616 M 	|  X
+XXLarge  | 1024 |42 | 8 	|1.2 B |  X
 
 You can use the pre-trained model for inference with the following code snippet:
 ```py
