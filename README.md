@@ -12,10 +12,6 @@ This repository contains the code and the model. The model is trained on the Moz
 - [Inference](#inference)
 - [References](#references)
 
-## Introduction
-
-
-
 ## Fast Conformer
 
 The Fast Conformer architecture improves on the standard Conformer by optimizing for both speed and accuracy. It achieves this through a combination of convolutional layers and self-attention mechanisms, making it well-suited for speech recognition tasks where computational efficiency is critical.
