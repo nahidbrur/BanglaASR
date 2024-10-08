@@ -80,10 +80,10 @@ You can use the pre-trained model for inference with the following code snippet:
 import nemo.collections.asr as nemo_asr
 
 # Load the pre-trained ASR model
-asr_model = nemo_asr.models.ASRModel.from_pretrained("nahidbrur/fast_conformer_ctc_bangla")
+asr_model = nemo_asr.models.ASRModel.from_pretrained("nahidbrur/stt_bn_fastconformer_ctc_large")
 
 # Transcribe an audio file
-transcription = asr_model.transcribe(paths2audio_files=["./dataset/test/test_bangla.wav"])
+transcription = asr_model.transcribe(["./dataset/test/test_bangla.wav"])
 print(f"Transcription: {transcription[0]}")
 ```
 
